@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import './App.css';
 
- function Saudacao({nome}){
+function Saudacao({nome}){
   return<h1>Olá, {nome}</h1>
 }
 
 
 function myApp(){
-  return (<Saudacao nome = "Israelzitto"/>)
+  return (<Saudacao nome = "ellen"/>)
 }
-export default myApp
