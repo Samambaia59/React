@@ -18,7 +18,7 @@ function CartaoLivro({titulo, autor, ano, genero}){
 function App() {
   return (
     <div>
-      <CartaoLivro titulo = "O livro do Bill" autor = "Alex Hirsch" ano = {2024} genero = "humor,fantasia sombria,fantasia paranormal"/>
+      <CartaoLivro titulo = "O livro do Bill" autor = "Alex Hirsch" ano = {2024} genero = "Humor, Fantasia sombria, Fantasia paranormal"/>
     </div>
   );
 }
